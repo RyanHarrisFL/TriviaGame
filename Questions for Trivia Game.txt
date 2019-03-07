@@ -79,4 +79,23 @@ C) Flying fish
 D) Tuna
 
 
+----------------------------------------------------
+Which actor stammered across singer Idina Menzel’s name, mistakenly calling her “Adele Dazeem” at this year’s Oscars?
+Jack Nicholson
+John Travolta
+Alec Baldwin
+Clint Eastwood
+
+
+$(document).ready(function(){
+  $("section").load(function(){
+    $("section").hide();
+  });
+
+
+
+
+
+
+
 
