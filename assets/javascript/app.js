@@ -11,6 +11,8 @@ $("#done").on("click", results);
 $("#countdown").html("<h1>" + countDown + "</h1>");
 $("#correct").html("<h1>" + correctAnswers + "</h1>");
 $("#wrong").html("<h1>" + wrongAnswers + "</h1>");
+//$("#correct-label").html("<h1>" + correctAnswers + "</h1>");
+//$("#wrong-label").html("<h1>" + wrongAnswers + "</h1>");
 
 // This function is set up to hide results and done button at beginnning. Also to show questions and countdown on clicking start 
 $(document).ready(function(){
@@ -18,10 +20,14 @@ $(document).ready(function(){
     $("#done").hide();
     $("#correct").hide();
     $("#wrong").hide();
+    $("#correct-label").hide();
+    $("#wrong-label").hide();
+    $("#thumbs").hide();
     $("#final-results").hide();
     $("#start").click( function(){
         $("section").show();
         $("#done").show();
+        $("#poster").hide();
         $(this).hide();
     });
   });
@@ -50,6 +56,9 @@ function results() {
     $("#done").hide();
     $("#correct").show();
     $("#wrong").show();
+    $("#correct-label").show();
+    $("#wrong-label").show();
+    $("#thumbs").show();
     $("#unanswered").show();
 }
 

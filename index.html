@@ -20,21 +20,34 @@
     <title>Walker, Texas Ranger Trivia</title>
   </head>
   <body>
-    <h1>Walker, Texas Ranger Trivia</h1>
-
-    <!--Start button for game-->
-
-    <div>
-      <button id="start">Start</button>
+      <div class="container mt-5">
+          <div class="row mx-auto">
+    <h1 class="header mx-auto">Walker, Texas Ranger Trivia</h1>
+          </div>
+          <div class="row">
+    <img id="poster" class="poster mx-auto" src="assets/images/51ZU3lsS3dL._SY445_.jpg">
+  </div>
+  <div class="row">
+        <button class="mx-auto btn btn-outline-primary" id="start">Start</button>
+      </div>
     </div>
+  
 
+    
+
+    
+    
+
+    <div class="container mt-5 bg-white">
+        <div class="row">
     <!--Question and Answer Section -->
-    <section id="questions">
-      <p id="countdown"></p>
-
-      <h2>Question 1</h2>
-      <p>The series was inspired by which Chuck Norris film?</p>
-      <form>
+    <section class="ml-5  mx-auto" id="questions">
+      <div class="mx-auto">
+      <p class="timer mt-5 text-center" id="countdown"></p>
+      </div>
+      <h2 class="text-center">Question 1</h2>
+      <p class="text-center">The series was inspired by which Chuck Norris film?</p>
+      <form class="text-center">
         <div>
           <div class="form-check form-check-inline">
             <input
@@ -83,9 +96,9 @@
         </div>
       </form>
 
-      <h2>Question 2</h2>
-      <p>For how many seasons did the series run?</p>
-      <form>
+      <h2 class="text-center">Question 2</h2>
+      <p class="text-center">For how many seasons did the series run?</p>
+      <form class="text-center">
         <div>
           <div class="form-check form-check-inline">
             <input
@@ -130,9 +143,9 @@
         </div>
       </form>
 
-      <h2>Question 3</h2>
-      <p>The show originally aired on which network?</p>
-      <form>
+      <h2 class="text-center">Question 3</h2>
+      <p class="text-center">The show originally aired on which network?</p>
+      <form class="text-center">
         <div>
           <div class="form-check form-check-inline">
             <input
@@ -177,9 +190,9 @@
         </div>
       </form>
 
-      <h2>Question 4</h2>
-      <p>Which film featured Chuck Norris's first credited role?</p>
-      <form>
+      <h2 class="text-center">Question 4</h2>
+      <p class="text-center">Which film featured Chuck Norris's first credited role?</p>
+      <form class="text-center">
         <div>
           <div class="form-check form-check-inline">
             <input
@@ -232,12 +245,12 @@
         </div>
       </form>
 
-      <h2>Question 5</h2>
-      <p>
+      <h2 class="text-center">Question 5</h2>
+      <p class="text-center">
         Walker's partner, James Trivette, worked in what profession before crime
         fighting?
       </p>
-      <form>
+      <form class="text-center">
         <div>
           <div class="form-check form-check-inline">
             <input
@@ -286,18 +299,18 @@
         </div>
       </form>
 
-      <h2>Question 6</h2>
-      <p>
+      <h2 class="text-center">Question 6</h2>
+      <p class="text-center">
         Before Walker, Sheree J. Wilson starred on what hit TV series?
       </p>
-      <form>
+      <form class="text-center">
         <div>
           <div class="form-check form-check-inline">
             <input
               class="form-check-input"
               type="radio"
               name="q6"
-              id="answer1True"
+              id="answer1"
               value="true"
             />
             <label class="form-check-label" for="inlineRadio1">Dallas</label>
@@ -335,11 +348,11 @@
         </div>
       </form>
 
-      <h2>Question 7</h2>
-      <p>
+      <h2 class="text-center">Question 7</h2>
+      <p class="text-center">
         The show had a product placement deal with which car manufacturer?
       </p>
-      <form>
+      <form class="text-center">
         <div>
           <div class="form-check form-check-inline">
             <input
@@ -384,11 +397,11 @@
         </div>
       </form>
 
-      <h2>Question 8</h2>
-      <p>
+      <h2 class="text-center">Question 8</h2>
+      <p class="text-center">
         What was the subtitle of the follow-up Walker, Texas Ranger TV movie?
       </p>
-      <form>
+      <form class="text-center">
         <div>
           <div class="form-check form-check-inline">
             <input
@@ -432,16 +445,25 @@
           </div>
         </div>
       </form>
+      <div class="row">
+          <button class="mx-auto btn btn-danger btn-lg" id="done">Done</button>
+        </div>
+        </div>
     </section>
 
-    <section>
-      <h2 id="correct"></h2>
-      <h2 id="wrong"></h2>
-      <!-- Button to click and confirm if questions are answered-->
-      <div>
-        <button id="done">Done</button>
-      </div>
+   <section class="results mx-auto mb-5" id="showResults">
+        <div id="thumbs" class="row">
+      <img class="mx-auto" src="assets/images/download.jpg">
+    </div>
+      <h2 class="text-center" id="correct-label">Correct Answers</h2>
+      <h2 class="text-center" id="correct"></h2>
+      <h2 class="text-center" id="wrong-label">Wrong Answers</h2>
+      <h2 class="text-center mb-5" id="wrong"></h2>
     </section>
+      <!-- Button to click and confirm if questions are answered-->
+      
+     
+   
 
     <!--Script files-->
     <script
