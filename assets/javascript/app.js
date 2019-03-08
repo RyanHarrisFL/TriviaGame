@@ -70,13 +70,13 @@ $("input[type='radio']").on('change', function(value) {
 
     // Question 2
 $("input[type='radio']").on('change', function(value) {
-    var question1 = $("input[name='q1']:checked").val();
-    if (question1 === "true") {
+    var question2 = $("input[name='q2']:checked").val();
+    if (question2 === "true") {
        correctAnswers++;
        $("#correct").html("<h1>" + correctAnswers + "</h1>");
     } 
     
-    else if (question1 === "false") {
+    else if (question2 === "false") {
        wrongAnswers++;
        $("#wrong").html("<h1>" + wrongAnswers + "</h1>");
     } 
@@ -85,13 +85,13 @@ $("input[type='radio']").on('change', function(value) {
 
     // Question 3
 $("input[type='radio']").on('change', function(value) {
-    var question1 = $("input[name='q1']:checked").val();
-    if (question1 === "true") {
+    var question3 = $("input[name='q3']:checked").val();
+    if (question3 === "true") {
        correctAnswers++;
        $("#correct").html("<h1>" + correctAnswers + "</h1>");
     } 
     
-    else if (question1 === "false") {
+    else if (question3 === "false") {
        wrongAnswers++;
        $("#wrong").html("<h1>" + wrongAnswers + "</h1>");
     } 
@@ -100,13 +100,13 @@ $("input[type='radio']").on('change', function(value) {
 
     // Question 4
 $("input[type='radio']").on('change', function(value) {
-    var question1 = $("input[name='q1']:checked").val();
-    if (question1 === "true") {
+    var question4 = $("input[name='q4']:checked").val();
+    if (question4 === "true") {
        correctAnswers++;
        $("#correct").html("<h1>" + correctAnswers + "</h1>");
     } 
     
-    else if (question1 === "false") {
+    else if (question4 === "false") {
        wrongAnswers++;
        $("#wrong").html("<h1>" + wrongAnswers + "</h1>");
     } 
@@ -115,13 +115,13 @@ $("input[type='radio']").on('change', function(value) {
 
     // Question 5
 $("input[type='radio']").on('change', function(value) {
-    var question1 = $("input[name='q1']:checked").val();
-    if (question1 === "true") {
+    var question5 = $("input[name='q5']:checked").val();
+    if (question5 === "true") {
        correctAnswers++;
        $("#correct").html("<h1>" + correctAnswers + "</h1>");
     } 
     
-    else if (question1 === "false") {
+    else if (question5 === "false") {
        wrongAnswers++;
        $("#wrong").html("<h1>" + wrongAnswers + "</h1>");
     } 
@@ -130,13 +130,13 @@ $("input[type='radio']").on('change', function(value) {
 
     // Question 6
 $("input[type='radio']").on('change', function(value) {
-    var question1 = $("input[name='q1']:checked").val();
-    if (question1 === "true") {
+    var question6 = $("input[name='q6']:checked").val();
+    if (question6 === "true") {
        correctAnswers++;
        $("#correct").html("<h1>" + correctAnswers + "</h1>");
     } 
     
-    else if (question1 === "false") {
+    else if (question6 === "false") {
        wrongAnswers++;
        $("#wrong").html("<h1>" + wrongAnswers + "</h1>");
     } 
@@ -145,13 +145,13 @@ $("input[type='radio']").on('change', function(value) {
 
     // Question 7
 $("input[type='radio']").on('change', function(value) {
-    var question1 = $("input[name='q1']:checked").val();
-    if (question1 === "true") {
+    var question7 = $("input[name='q7']:checked").val();
+    if (question7 === "true") {
        correctAnswers++;
        $("#correct").html("<h1>" + correctAnswers + "</h1>");
     } 
     
-    else if (question1 === "false") {
+    else if (question7 === "false") {
        wrongAnswers++;
        $("#wrong").html("<h1>" + wrongAnswers + "</h1>");
     } 
@@ -160,45 +160,17 @@ $("input[type='radio']").on('change', function(value) {
 
     // Question 8
 $("input[type='radio']").on('change', function(value) {
-    var question1 = $("input[name='q1']:checked").val();
-    if (question1 === "true") {
+    var question8 = $("input[name='q8']:checked").val();
+    if (question8 === "true") {
        correctAnswers++;
        $("#correct").html("<h1>" + correctAnswers + "</h1>");
     } 
     
-    else if (question1 === "false") {
-       wrongAnswers++;
-       $("#wrong").html("<h1>" + wrongAnswers + "</h1>");
-    } 
-    
-    });
-
-    // Question 9
-$("input[type='radio']").on('change', function(value) {
-    var question1 = $("input[name='q1']:checked").val();
-    if (question1 === "true") {
-       correctAnswers++;
-       $("#correct").html("<h1>" + correctAnswers + "</h1>");
-    } 
-    
-    else if (question1 === "false") {
+    else if (question8 === "false") {
        wrongAnswers++;
        $("#wrong").html("<h1>" + wrongAnswers + "</h1>");
     } 
     
     });
     
-    // Question 10
-    $("input[type='radio']").on('change', function(value) {
-        var question1 = $("input[name='q1']:checked").val();
-        if (question1 === "true") {
-           correctAnswers++;
-           $("#correct").html("<h1>" + correctAnswers + "</h1>");
-        } 
-        
-        else if (question1 === "false") {
-           wrongAnswers++;
-           $("#wrong").html("<h1>" + wrongAnswers + "</h1>");
-        } 
-        
-        });
+   
