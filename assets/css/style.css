@@ -24,7 +24,7 @@ button {
 
 .thumbs {
     width: 400px;
-    align: center;
+    box-align: center;
 }
 
 .timer {
